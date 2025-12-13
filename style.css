@@ -1,41 +1,87 @@
-body{
-    background: linear-gradient(60deg, #781735, #EB2929);
-    color: white;
+body {
+  background: linear-gradient(60deg, #781735, #eb2929);
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
-header{
-    background: rgba(0, 0, 0, 0.263);
-    color: white;
-    backdrop-filter: blur(10px);
+header {
+  background: rgba(0, 0, 0, 0.263);
+  color: white;
+  backdrop-filter: blur(10px);
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-top:10px;
-    padding-right: 10px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+    font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
-.logo{
-    font-size: 24px;
-    font-weight: bold;
+.logo {
+  font-size: 24px;
+  font-weight: bold;
   font-family: "Sekuya", system-ui;
   font-weight: 400;
   font-style: normal;
 }
-.logo span{
-    color: #EB2929;
+.logo span {
+  color: #eb2929;
 }
-.loginbtnnav{
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
+.loginbtnnav {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
 }
-.loginbtnnav:hover{
-    box-shadow: 0 0 10px red;
-    background: transparent;
-    border: solid 2px red;
-    color: red;
+.loginbtnnav:hover {
+  box-shadow: 0 0 10px red;
+  background: transparent;
+  border: solid 2px red;
+  color: red;
+}
+.hero {
+    justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.412);
+    width: 70% ;
+    margin: 20px;
+    border-radius: 50px;
+      font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+}
+.hero-content .logo {
+  font-size: 48px;
+  
+}
+.hero-content p {
+  font-size: 24px;
+  margin: 20px 0;
+}
+.hero-content button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+}
+.hero-content button:hover {
+  box-shadow: 0 0 10px red;
+  background: transparent;
+  border: solid 2px red;
+  color: red;
 }
