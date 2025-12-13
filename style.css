@@ -4,9 +4,11 @@ body {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header {
-  background: rgba(0, 0, 0, 0.263);
+  background: rgba(0, 0, 0, 0.466);
   color: white;
   backdrop-filter: blur(10px);
 }
@@ -54,7 +56,7 @@ nav {
   text-align: center;
   background: rgba(0, 0, 0, 0.412);
     width: 70% ;
-    margin: 20px;
+    margin: 33px;
     border-radius: 50px;
       font-family: "Kanit", sans-serif;
   font-weight: 500;
@@ -68,6 +70,7 @@ nav {
 .hero-content p {
   font-size: 24px;
   margin: 20px 0;
+  color: rgb(208, 208, 208);
 }
 .hero-content button {
   background-color: red;
@@ -85,3 +88,89 @@ nav {
   border: solid 2px red;
   color: red;
 }
+.login{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    background: #0000004f;
+    width: 30%;
+    justify-self: center;
+    padding: 50px;
+    margin-bottom: 50px;
+    color: white;
+    border-radius: 50px;
+}
+.login-title{
+  color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.input-login1 {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+}
+.input-login2{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+}
+.input-login3{
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+}
+.login-input input{
+    border-radius: 20px;
+    height: 3rem;
+    width: 250px;
+    BORDER :none;
+    padding-left: 10px;
+}
+.login-input button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-input button:hover {
+  box-shadow: 0 0 10px red;
+  background: transparent;
+  border: solid 2px red;
+  color: red;
+}
+.loginbottom button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.loginbottom button:hover {
+  box-shadow: 0 0 10px red;
+  background: transparent;
+  border: solid 2px red;
+  color: red;
+}
+
