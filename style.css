@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(60deg, #781735, #eb2929);
+  background: linear-gradient(70deg, #480d0d 20%, #eb2929);
   color: white;
   font-family: "Kanit", sans-serif;
   font-weight: 500;
@@ -71,6 +71,7 @@ nav {
   font-size: 24px;
   margin: 20px 0;
   color: rgb(208, 208, 208);
+  font-weight: 300;
 }
 .hero-content button {
   background-color: red;
@@ -105,7 +106,7 @@ nav {
     width: 30%;
     justify-self: center;
     padding: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     color: white;
     border-radius: 50px;
 }
