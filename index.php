@@ -18,7 +18,7 @@
             <div class="logo">
                 <p>Connect<span>Sys</span></p>
             </div>
-            <a href="login.html"><button type="button" class="loginbtnnav">Connection</button></a>
+            <a href="login.php"><button type="button" class="loginbtnnav">Connection</button></a>
 
         </nav>
     </header>
@@ -26,8 +26,8 @@
         <div class="hero-content">
             <h1>Bienvenue a <span class="logo">Connect<span>Sys</span></span></h1>
             <p>Tout vos contact dans une seule application</p>
-            <a href="signup.html"><button>S'inscrire</button></a>
-            <a href="login.html"><button>Se connecter</button></a>
+            <a href="insciption.php"><button>S'inscrire</button></a>
+            <a href="login.php"><button>Se connecter</button></a>
         </div>        
     </section>
 

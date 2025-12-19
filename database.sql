@@ -1,5 +1,5 @@
 CREATE TABLE User (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KE ,
     nome VARCHAR(100),
     mdp VARCHAR(100),
     date_inscription DATE
@@ -12,4 +12,9 @@ CREATE TABLE contact (
     adresse VARCHAR(255)
 );
 
+ALTER TABLE `user`
+    ADD COLUMN email VARCHAR(50);
+
+ALTER TABLE `user`
+MODIFY id INT AUTO_INCREMENT
 
