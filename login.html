@@ -17,37 +17,32 @@
 </head>
 
 <body>
-    <section class="login">
+    <form class="login" action='connection.php' method="post">
 
-        <h1 class="login-title">INSCRIVEZ VOUS</h1>
+        <h1 class="login-title">CONNECTEZ VOUS</h1>
 
-        <form class="login-input" action="signup.php" method="post">
+        <div class="login-input">
 
             <div class="input-login1">
-                <label for="nom_prenom">Nom et prénom</label>
-                <input type="text" name="nom_prenom" placeholder="entrez votre nom et prénom">
-            </div>  
-            <div class="input-login2">
-                <label for="email">Email</label>
-                <input type="email" name="email" placeholder="entrez votre email">
+                <label for="nom_prenom">Email</label>
+                <input type="text" name="nom_prenom" placeholder="entrez votre nom et prenom">
             </div>
-            <div class="input-login3">
+            <div class="input-login2">
                 <label for="motdepass">Mot de passe</label>
                 <input type="password" name="motdepass" placeholder="Entrez votre mot de passe">
-            </div>
+    </form>
 
-            <button class="button-connection-login" type="submit">Inscription</button>  
-        </form>
-        <div class="loginbottom">
-            <p>vous avez deja un compte ?</p>
-            <a href="login.html"><button>Connectez-vous</button></a>
-        </div>
-
-    </section>
+    <button class="button-connection-login">Connection</button>
+    </div>
+    <div class="loginbottom">
+        <p>vous n'avez pas de compte ?</p>
+        <a href="signup.html"><button>Creer un</button></a>
+    </div>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    </form>
 
 </body>
 

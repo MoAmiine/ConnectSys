@@ -10,11 +10,11 @@ function insert()
     $password = $_POST["motdepass"];
 
     $connection->prepare("INSERT INTO user (`nome`, `email`, `mdp`) VALUES (:name, :email, :password)")
-    ->execute([
-        'name' => $name,
-        'password' => $password,
-        'email'=> $email
-    ]);
+        ->execute([
+            'name' => $name,
+            'password' => $password,
+            'email' => $email
+        ]);
 }
 
 

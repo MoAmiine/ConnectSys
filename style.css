@@ -5,7 +5,7 @@ body {
   font-weight: 500;
   font-style: normal;
   background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-attachment: fixed;
 }
 header {
   background: rgba(0, 0, 0, 0.466);
@@ -18,7 +18,7 @@ nav {
   padding-left: 10px;
   padding-top: 10px;
   padding-right: 10px;
-    font-family: "Kanit", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
@@ -48,24 +48,23 @@ nav {
   color: red;
 }
 .hero {
-    justify-self: center;
+  justify-self: center;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
   text-align: center;
   background: rgba(0, 0, 0, 0.412);
-    width: 70% ;
-    margin: 33px;
-    border-radius: 50px;
-      font-family: "Kanit", sans-serif;
+  width: 70%;
+  margin: 33px;
+  border-radius: 50px;
+  font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
   color: white;
 }
 .hero-content .logo {
   font-size: 48px;
-  
 }
 .hero-content p {
   font-size: 24px;
@@ -89,69 +88,69 @@ nav {
   border: solid 2px red;
   color: red;
 }
-.login{
-    margin-top: 50px;
-    text-align: center;
-    font-family: "Kanit", sans-serif;
+.login {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
-.login-input{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
-    background: #0000004f;
-    width: 30%;
-    justify-self: center;
-    padding: 50px;
-    margin-bottom: 20px;
-    color: white;
-    border-radius: 50px;
-}
-.login-title{
+.login-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  background: #0000004f;
+  width: 30%;
+  justify-self: center;
+  padding: 50px;
+  margin-bottom: 20px;
   color: white;
-    font-size: 50px;
-    margin-bottom: 20px;
+  border-radius: 50px;
+}
+.login-title {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 20px;
 }
 .input-login1 {
-    margin: 10px;
-    padding: 10px;
-    width: 80%;
-    border-radius: 10px;
-    border: none;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
 }
-.input-login2{
-    margin: 10px;
-    padding: 10px;
-    width: 80%;
-    border-radius: 10px;
-    border: none;
+.input-login2 {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
 }
-.input-login3{
-    margin: 10px;
-    padding: 10px;
-    width: 80%;
-    border-radius: 10px;
-    border: none;
+.input-login3 {
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  border-radius: 10px;
+  border: none;
 }
-.login-input input{
-    border-radius: 20px;
-    height: 3rem;
-    width: 250px;
-    BORDER :none;
-    padding-left: 10px;
+.login-input input {
+  border-radius: 20px;
+  height: 3rem;
+  width: 250px;
+  border: none;
+  padding-left: 10px;
 }
-.login-input button{
-    margin-top: 20px;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    background-color: red;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+.login-input button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
 .login-input button:hover {
   box-shadow: 0 0 10px red;
@@ -159,14 +158,14 @@ nav {
   border: solid 2px red;
   color: red;
 }
-.loginbottom button{
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: none;
-    background-color: red;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+.loginbottom button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
 }
 .loginbottom button:hover {
   box-shadow: 0 0 10px red;
@@ -174,4 +173,3 @@ nav {
   border: solid 2px red;
   color: red;
 }
-
