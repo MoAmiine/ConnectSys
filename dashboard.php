@@ -4,6 +4,9 @@ session_start();
 if (!isset($_SESSION['nom_prenom'])){
     header('location: login.html');
 }
+// if ($_SERVER['REQUEST_METHOD'] == 'GET'){
+//     header('location: login.html');
+// }
 
 ?>
 
@@ -31,14 +34,16 @@ if (!isset($_SESSION['nom_prenom'])){
             <div class="logo">
                 <p>Connect<span>Sys</span></p>
             </div>
+            <div>
             <a href="profile.html"></a>
-            <a href="login.php"><button type="button" class="loginbtnnav">Connection</button></a>
+            <a href="logout.php"><button type="button" class="loginbtnnav">Deconnection</button></a>
+        </div>
         </nav>
     </header>
-    <section class="hero">
+    <section class="hero d-flex flex-column">
         <div class="hero-content">
-            <h1>Bienvenue<span class="logo"><?=$_SESSION['nom_prenom']?></div></span></h1>
-            <a href="login.php"><button>Gerer mes contacts</button></a>
+            <h1>Bienvenue<span class="logo ">    <?=$_SESSION['nom_prenom']?></div></span></h1>
+            <a href="login.php"><button class="dashboard-button">Gerer mes contacts</button></a>
         </div>
     </section>
 
