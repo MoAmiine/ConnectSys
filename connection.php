@@ -12,11 +12,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $user = $stmt->fetch();
     if ($user) {
         $_SESSION['nom_prenom'] = $user['nome'];
-        header('location: dashboard.php');
+         if(($user['mdp'] == $password)){
+            header('location: dashboard.php');
+
+}
+else{
+    echo 'incorrect';
+}   
         exit();
     }
-    // if(($password == $username['motdepass'])){
-//     echo 'correct';
-// }
+
 }
 
